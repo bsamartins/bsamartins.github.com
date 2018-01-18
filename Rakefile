@@ -53,9 +53,9 @@ namespace :site do
     Dir.chdir(DEST_DIR) do
       # check if there is anything to add and commit, and pushes it
       sh "if [ -n '$(git status)' ]; then
-            git add --all .;
+            git add --all -f _site;
             git commit -m 'Updating to #{REPO_SLUG}@#{sha}.';
-            git push --quiet origin #{DESTINATION_BRANCH};
+            git push origin #{DESTINATION_BRANCH};
          fi"
       puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"
     end
