@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Hello World"
+summary: "Hi World. This is my first post."
 date:   2015-11-20 22:10:09 +0000
 categories: 
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Reverse proxy NGINX Docker container to localhost"
+summary: "So how do you route reverse proxy and NGINX container traffic to your local machine?"
 date:   2018-01-18 08:00:00 +0000
 categories:
 ---
