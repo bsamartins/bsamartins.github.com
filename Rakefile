@@ -15,6 +15,10 @@ REPO = CONFIG["repo"]
 SOURCE_BRANCH = CONFIG["source_branch"]
 DESTINATION_BRANCH = CONFIG["destination_brach"]
 
+puts "Source Branch: #{SOURCE_BRANCH}"
+puts "Destination Branch: #{DESTINATION_BRANCH}"
+puts "Destination: #{CONFIG["destination"]}"
+
 def check_destination
   unless Dir.exist? CONFIG["destination"]
     sh "git clone https://$GIT_NAME:$GH_TOKEN@github.com/#{USERNAME}/#{REPO}.git #{CONFIG["destination"]}"
