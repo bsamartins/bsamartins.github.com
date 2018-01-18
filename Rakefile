@@ -52,8 +52,9 @@ namespace :site do
     sha = `git log`.match(/[a-z0-9]{40}/)[0]
     Dir.chdir(DEST_DIR) do
       # check if there is anything to add and commit, and pushes it
-      sh "if [ -n '$(git status)' ]; then
+      sh "if [ -n '$(git status --ignored)' ]; then
             git add --all -f _site;
+            ls -la;
             git commit -m 'Updating to #{REPO_SLUG}@#{sha}.';
             git push origin #{DESTINATION_BRANCH};
          fi"
