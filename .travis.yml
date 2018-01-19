@@ -9,7 +9,7 @@ install:
   - bundle install
 
 script:
-  - ./ci/travis.build.sh
+  - .ci/travis.build.sh
 
 # Generate your secure token with the travis gem:
 # get Github token from your Travis CI profile page
