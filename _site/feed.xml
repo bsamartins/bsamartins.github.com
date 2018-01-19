@@ -4,10 +4,10 @@
     <title>Notes to myself</title>
     <description>Some technology bits and bytes. A sort of a personal archive
 </description>
-    <link>http://bsamartins.github.io/</link>
-    <atom:link href="http://bsamartins.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Jan 2018 01:18:16 +0000</pubDate>
-    <lastBuildDate>Fri, 19 Jan 2018 01:18:16 +0000</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 19 Jan 2018 01:18:58 +0000</pubDate>
+    <lastBuildDate>Fri, 19 Jan 2018 01:18:58 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -42,8 +42,8 @@ and NGINX will route traffic to it.&lt;/p&gt;
 &lt;p&gt;On Windows boxes hostname should be &lt;code class=&quot;highlighter-rouge&quot;&gt;docker.for.win.localhost&lt;/code&gt;.&lt;/p&gt;
 </description>
         <pubDate>Thu, 18 Jan 2018 08:00:00 +0000</pubDate>
-        <link>http://bsamartins.github.io/2018/01/18/nginx-docker-reverse-proxy.html</link>
-        <guid isPermaLink="true">http://bsamartins.github.io/2018/01/18/nginx-docker-reverse-proxy.html</guid>
+        <link>http://localhost:4000/2018/01/18/nginx-docker-reverse-proxy.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/01/18/nginx-docker-reverse-proxy.html</guid>
         
         
       </item>
@@ -59,8 +59,8 @@ and NGINX will route traffic to it.&lt;/p&gt;
 &lt;p&gt;Cheers!&lt;/p&gt;
 </description>
         <pubDate>Fri, 20 Nov 2015 22:10:09 +0000</pubDate>
-        <link>http://bsamartins.github.io/2015/11/20/hello-world.html</link>
-        <guid isPermaLink="true">http://bsamartins.github.io/2015/11/20/hello-world.html</guid>
+        <link>http://localhost:4000/2015/11/20/hello-world.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/11/20/hello-world.html</guid>
         
         
       </item>
