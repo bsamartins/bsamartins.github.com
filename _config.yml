@@ -20,4 +20,5 @@ timezone: Europe/Dublin
 # Build settings
 markdown: kramdown
 
-theme: leonids
+#theme: leonids
+remote_theme: renyuanz/leonids
