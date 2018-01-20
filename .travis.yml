@@ -2,9 +2,10 @@ language: ruby
 rvm:
 - 2.3.3
 before_script:
+  - git config --global user.email "travis@travis-ci.org"
+  - git config --global user.name "Travis CI"
   - git config remote.origin.fetch +refs/heads/*:refs/remotes/origin/*
-  - git fetch --all -v
-  - git branch --list
+  - git fetch --all
   - git checkout ${TRAVIS_BRANCH}
   - git checkout master
   - git pull
