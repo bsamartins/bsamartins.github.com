@@ -1,5 +1,9 @@
 set -e
 
+git checkout ${TRAVIS_BRANCH}
+
+git branch
+
 bundle exec jekyll build
 
 git config --global user.email "travis@travis-ci.org"
