@@ -21,4 +21,4 @@ timezone: Europe/Dublin
 markdown: kramdown
 
 #theme: leonids
-remote_theme: leonids
+remote_theme: renyuanz/leonids
