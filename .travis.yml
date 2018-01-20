@@ -2,6 +2,7 @@ language: ruby
 rvm:
 - 2.3.3
 before_script:
+  - git config remote.origin.fetch
   - git fetch --all -v
   - git branch --list
   - git checkout ${TRAVIS_BRANCH}
