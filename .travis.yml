@@ -2,10 +2,11 @@ language: ruby
 rvm:
 - 2.3.3
 before_script:
-  - git fetch
+  - git fetch -v
   - git branch --list
   - git checkout ${TRAVIS_BRANCH}
   - git checkout master
+  - git pull
   - git merge ${TRAVIS_BRANCH}
 
 script: "./.scripts/deploy.sh"
