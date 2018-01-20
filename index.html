@@ -1,20 +1,4 @@
 ---
-layout: default
+layout: home
+title: home
 ---
-<ul class="post-listing">
-  {% for post in site.posts %}
-    <section class="post">
-      <header class="post-header">
-        <p class="post-meta">
-          <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        </p>
-        <h4>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h4>
-      </header>
-      <div class="post-description">
-        {{ post.summary }}
-      </div>
-    </section>
-  {% endfor %}
-</ul>
