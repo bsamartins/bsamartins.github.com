@@ -17,6 +17,9 @@ twitter_username: pxbecko
 github_username:  bsamartins
 timezone: Europe/Dublin
 
+paginate: 1
+color_scheme: ruby
+
 # Build settings
 markdown: kramdown
 
