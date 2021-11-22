@@ -10,7 +10,7 @@ So how do you route reverse proxy and NGINX container traffic to your local mach
 This setup is based on Docker Compose so let's first setup our docker compose file config.
 
 {% highlight yaml %}
-version: '3'
+version: '3.9'
 services:
   nginx:
     image: nginx
@@ -27,13 +27,11 @@ server {
     listen       80;
 
     location / {
-        proxy_pass   http://docker.for.mac.localhost:4200;
+        proxy_pass   http://host.docker.internal:4200;
     }
 
 }
 {% endhighlight %}
 
-By using the hostname ```docker.for.mac.localhost``` Docker will resolve it our localhost's IP
+By using the hostname ```host.docker.internal``` Docker will resolve it our localhost's IP
 and NGINX will route traffic to it.
-
-On Windows boxes hostname should be ```docker.for.win.localhost```.
