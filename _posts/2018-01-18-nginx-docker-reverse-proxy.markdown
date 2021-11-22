@@ -33,5 +33,5 @@ server {
 }
 {% endhighlight %}
 
-By using the hostname ```host.docker.internal``` Docker will resolve it our localhost's IP
+Using the hostname ```host.docker.internal``` Docker will resolve it our host's IP
 and NGINX will route traffic to it.
